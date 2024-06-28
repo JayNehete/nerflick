@@ -4,6 +4,7 @@ from hyperopt import fmin, tpe, hp
 import os
 import torch
 import time
+import numpy
 
 pars = argparse.ArgumentParser()
 
